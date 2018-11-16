@@ -1,6 +1,5 @@
-//# Shooting-Mech
-//Shooting and destroying and object
-{
+//shooting mechanic
+
 
 void Shoot()
     {
@@ -17,4 +16,4 @@ void Shoot()
             }
         }
     }
-}
+
