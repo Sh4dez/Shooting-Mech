@@ -4,6 +4,7 @@
 void Shoot()
     {
         muzzleFlash.Play();
+        
         RaycastHit hit;
        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
